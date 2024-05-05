@@ -1,0 +1,50 @@
+
+/* Style pour centrer le formulaire de connexion au milieu de la page */
+.container {
+   
+    /* Centre l'image horizontalement et verticalement */
+    height: 100vh; /* Définit la hauteur de la div pour couvrir la hauteur de la fenêtre */
+    display: flex; /* Utilise Flexbox pour centrer le contenu verticalement */
+    justify-content: center; /* Centre le contenu horizontalement */
+    align-items: center; /* Centre le contenu verticalement */
+}
+.background-image {
+    background-image: url('/assets/img/demandeB.gif');
+    filter: blur(2px); /* Ajustez la valeur du flou selon vos préférences */
+    /* Autres styles pour la taille, la position, etc. de l'image */
+}
+/* Conteneur du formulaire de connexion */
+.login-form {
+    width: 100%; /* Ajustez la largeur selon vos besoins */
+    max-width: 400px; /* Limite la largeur maximale du formulaire */
+    padding: 20px;
+    background-color: white; /* Couleur de fond blanche */
+    border-radius: 8px; /* Bordures arrondies */
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1); /* Ombre pour le formulaire */
+}
+
+/* Titre du formulaire */
+.title {
+    text-align: center; /* Aligne le titre au centre */
+    margin-bottom: 20px; /* Marge inférieure pour séparer le titre des champs de formulaire */
+}
+
+/* Champ de formulaire */
+.form-field {
+    width: 100%; /* Champs de formulaire prennent la largeur du conteneur */
+    margin-bottom: 20px; /* Ajoute de la marge inférieure entre les champs */
+}
+
+/* Bouton pour soumettre le formulaire */
+.submit-button {
+    width: 100%; /* Bouton prend toute la largeur du conteneur */
+    margin-top: 20px; /* Ajoute de la marge supérieure pour séparer le bouton des champs de formulaire */
+}
+
+/* Texte pour l'inscription */
+.signup-text {
+    text-align: center; /* Aligne le texte d'inscription au centre */
+    margin-top: 20px; /* Ajoute de la marge supérieure pour séparer le texte d'inscription */
+}
+
+  
